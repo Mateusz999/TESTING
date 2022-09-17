@@ -1,0 +1,39 @@
+.carousel-item{
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+}
+.ad1{
+    background: url(https://cdn.pixabay.com/photo/2016/10/22/17/46/mountains-1761292__340.jpg) no-repeat center center;
+}
+
+.ad2{
+    background: url(https://cdn.pixabay.com/photo/2017/03/05/00/34/panorama-2117310__340.jpg) no-repeat center center;
+}
+
+.ad3{
+    background: url(https://cdn.pixabay.com/photo/2021/10/01/02/52/saigon-6671185__340.jpg) no-repeat center center;
+}
+@media (min-width:576px){
+    .carousel-item {
+    min-height: 17rem;
+    }
+}
+@media (max-width:576px){
+    .carousel-item{
+    min-height: 12rem;
+    }
+}
+#newsletter-box{
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    background-image: url(https://cdn.pixabay.com/photo/2012/06/08/06/19/clouds-49520__340.jpg);
+}
+.form-box{
+    width: 20rem;
+}
+
+footer a{
+    color: #aaaaab;
+}
